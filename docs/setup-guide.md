@@ -37,7 +37,7 @@ Lucky 分两套环境，都**不需要 Cloudflare 隧道或任何内网穿透**�
 
 ## 1.2 GitHub 设置内网网址并构建镜像
 
-1. 仓库 `oct17b-stack/lucky` → **Settings** → **Secrets and variables** → **Actions** → **Variables** → **New repository variable**
+1. 仓库 `smallyjh-boop/lucky` → **Settings** → **Secrets and variables** → **Actions** → **Variables** → **New repository variable**
    - Name：`LAN_URL`
    - Value：`http://192.168.1.100:3000`（不要以 `/` 结尾）
    - 以前设过 `STAGING_URL` 的可以删掉

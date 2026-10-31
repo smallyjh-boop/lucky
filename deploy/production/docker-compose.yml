@@ -6,7 +6,7 @@ name: lucky-prod
 
 services:
   web:
-    image: ghcr.io/oct17b-stack/lucky-web:${LUCKY_TAG:-prod}
+    image: ghcr.io/smallyjh-boop/lucky-web:${LUCKY_TAG:-prod}
     restart: unless-stopped
     env_file: .env
     environment:

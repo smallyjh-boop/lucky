@@ -7,7 +7,7 @@ name: lucky-staging
 
 services:
   web:
-    image: ghcr.io/oct17b-stack/lucky-web:staging
+    image: ghcr.io/smallyjh-boop/lucky-web:staging
     restart: unless-stopped
     env_file: .env
     environment:
